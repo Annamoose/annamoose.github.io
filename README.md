@@ -1,2 +1,2 @@
 # AFritz.github.io
-Personnal website
+Personnal website; first github pages
