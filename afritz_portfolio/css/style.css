@@ -40,18 +40,37 @@
 #home {
     width: 100%;
     height: 100vh;
-    background-image: url(/assets/sky.jpg);
+    background-image: url(/assests/sky.jpg);
     background-size:cover;
     background-position: center;
-    font-family: agency fb, corbel, helvetica, sans-serif;
+    font-family: palatino linotype, book antiqua, helvetica, serif;
     color: white;
     text-align: center;
     font-size: 36px;
     padding-top: 120px;
 }
 
+#contact {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/assests/BeachPhotoEdit.png);
+    background-size:cover;
+    background-position: center;
+    font-family: palatino linotype, book antiqua, helvetica, serif;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 120px;
+}
 
 h1 {
-	color: #332782;
+	color: #000066;
 	font-size: 30px;	
 }
+
+h2 {
+	color: #b3bbbe;
+	font-size: 20px;	
+}
+
+

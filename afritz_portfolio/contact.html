@@ -1,52 +1,96 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ann Fritz</title>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Ann Fritz</title>
 
-    <!-- Bootstrap stylesheet above css style.css -->
-    <link href="bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">  
-      
+        <!-- Bootstrap stylesheet above css style.css -->
+        <link href="bootstrap.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">  
 
-<!--CONTACT-->
+        
+    <script src="lib/jquery-3.2.1.min.js"></script>
+    <script src="lib/bootstrap.min.js"></script>
 
-<div id = "contact" class = "container-fluid">
-    <h1 class="title">Contact</h1>
-    <div id="contact-row" class = "row">
-        <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-2">
-            <img class="other-pic" src="assets/contact.png">        
-        </div>
-        <div class="col-md-3 col-md-offset-1 desk">
-            <div id="text-box-web">
-                <span id="spanning">
-                    <p>amfritz2[at]wisc.edu</p>
-                    <a href="https://www.linkedin.com/in/ann-fritz-83071991/"target="_blank"></a>
-            </div>
-        </div>
-        <div class="col-xs-10 col-xs-offset-1 div-only-mobile">
-            <div id="text-box-mobile">
-                <span id="spanning">
-                    <p>fisherjohnmark[at]gmail.com</p>
-                    <a href="https://www.linkedin.com/in/johnmark-fisher-01103b152/" target="_blank"><img class="tiny" alt="Linkedin" src="assets/linkedin_thumb.svg"></a>
-                    <a href="https://github.com/jmjfisher" target="_blank"><img class="tiny" alt="GitHub" src="assets/git_thumb.svg"></a>
-                    <a href="https://twitter.com/jmj_fisher" target="_blank"><img class="tiny" alt="Twitter" src="assets/twitter_thumb.svg"></a>
-                </span>
-            </div>
-        </div>
-    </div>
-</div>      
-  
-<div class="container">
-      <div class="row">
-          <h3><strong>Email:</strong> amfritz2@wisc.edu</h2>
-          <h3><strong>LinkedIn:</strong> @AnnFritz</h2>
-      </div>
-    </div>
-    
  </head>
+    <body>
+  
+ <!-- Navbar -->    
+        
+     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="/index.html">Ann Fritz Website</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/about.html">About</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/contact.html">Contact</a>
+          </li>
+         
+        </ul>
+       </div>
+    </nav>
     
+  
+<!--CONTACT
+
+        <div id = "contact" class = "container-fluid">
+            <h1 class="title">Contact Me!</h1>
+            <div id="contact-row" class = "row">
+                <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-2">
+                    <img class="other-pic" src="assests/ContactMe.png">        
+                </div>
+                
+            </div>
+        </div>     --> 
+            
+  <!-- Contact Information -->     
+ 
+    <div class="jumbotron jumbotron-fluid" id="contact">
+        <div class="container-fluid">
+            
+        <h1 class="title">I'd love to help!</h1>
+        
+        <br>
+        <h2 class="title">Contact me via email at amfritz2@wisc.edu</h1>
+        <h2 class="title">or @AnnFritz on LinkedIn (<a href="https://www.linkedin.com/in/ann-fritz-83071991/">click</a> to log in to LinkedIn to view my full profile)</h1>
+        <br>
+       <!----SCROLLY THING NOT WORKING 
+            <a href="#about" class="js-scroll">img id="scroll-button" alt="" src="assests/down.svg"></a>-->
+            
+        </div>
+    </div>
+
+
+     <!-- footer -->     
+ 
+      
+      <hr>
+       <div class="row">
+          <div class="text-center col-lg-6 offset-lg-3">
+             <h4> </h4>
+             <p>Copyright &copy; 2018 &middot; All Rights Reserved &middot; <a href="#" >Ann Fritz</a></p>
+          </div>
+       </div>
+   
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <script src="jquery-3.2.1.min.js"></script>
     
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    <script src="file:///C|/Bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap.js"></script>
+  </body>
+</html>
